@@ -4,3 +4,15 @@
 либо задать на старте выполнения алгоритма. При решении не рекомендуется пользоваться коллекциями, 
 лучше обойтись исключительно массивами.
 */
+
+int[] Array1 = { 10, 13, 42, 69, 113, 25 };
+int n = Array1.Length;
+int index = 0;
+
+System.Console.WriteLine("This is the first array");
+while (index < n)
+{
+    System.Console.Write($"{Array1[index]} ");
+    index++;
+}
+System.Console.WriteLine();
